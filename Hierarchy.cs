@@ -57,6 +57,7 @@
         private int maxCapacity;
         protected bool hasAirConditioning;
         public enum type { Passenger, Special };
+        private Type type;
     }
 
     class Person
